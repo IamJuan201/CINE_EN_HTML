@@ -23,33 +23,36 @@
     </header>
 </body>
 <section class="contact">
-        <h1>Contact Us</h1>
+        <h1>Contactanos</h1>
         <div>
-         <form>
-            <label for="names">Names:</label>
-            <input type="text" id="names" name="name" placeholder="Names*"><br><br>
+            <form>
+                <label for="names">Nombre:</label>
+                <input type="text" id="names" name="name" placeholder="Tu nombre*"><br><br>
 
-            <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last_name" placeholder="Last Name*"><br><br>
+                <label for="last-name">Apellido:</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Tu apellido"><br><br>
 
-            <label for="type_of_document" placeholder="type of document*">Type of document:</label>
-            <select>
-              <option value="CC">Cedula de ciudadania</option>
-              <option value="TI">Tarjeta de identidad</option>
-              <option value="CE">Cedula de extranjeria</option>
-              <option value="PA">Pasaporte</option>
-              <option value="NIT">NIT</option>
-            </select>
-            
+                <label for="type_of_document" placeholder="Tipo de documento">Tipo de documento</label>
+                <select>
+                    <option value="CC">Cedula de ciudadania</option>
+                    <option value="TI">Tarjeta de identidad</option>
+                    <option value="CE">Cedula de extranjeria</option>
+                    <option value="PA">Pasaporte</option>
+                    <option value="NIT">NIT</option>
+                </select>
+                
+                <label for="documento">Numero de documento:</label>
+                <input type="number" id="number" name="document"  min="1" placeholder="Tu numero de documento"><br>
+                <br>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Email*"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Tu email"><br><br>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" placeholder="coment*"></textarea><br><br>
+                <label for="message">Comentario:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Dejanos tu comentarios aqui*"></textarea><br><br>
 
-            <input type="submit" value="Submit">
-         </form>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     
     </section>
